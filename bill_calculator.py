@@ -5,4 +5,4 @@ quantity = int(input("Enter quantity: "))
 
 total = price * quantity
 
-print(f"{quantity} items at {price} each = {total}")
+print(f"{quantity} items at {price:.2f} each = {total:.2f}")
